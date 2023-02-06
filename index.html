@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/home.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <!-- Start header  -->
+  <nav class="navbar navbar-expand-lg bg-light sticky-lg-top">
+    <div class="container">
+      <a class="navbar-brand d-flex gap-2 align-items-center fs-4" href="index.html"><i
+          class="fa-solid fa-book iconlogo"></i>BookStore</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="main">
+        <ul class="navbar-nav p-1 mb-2 mb-lg-0 ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="books.html">Books</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <form action="" class="d-flex align-items-center gap-3 rounded-5 my-4 my-lg-0 mx-lg-3">
+            <input type="text" name="" id="" placeholder="Search " />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </form>
+          <div class="log d-flex align-items-center justify-content-around gap-3 flex-column flex-lg-row">
+            <i class="fa-solid fa-cart-shopping fs-5"></i>
+            <a href="log-in.html" class="btn btn-primary rounded-pill login"> Login </a>
+            <a href="sign-up.html" class="btn btn-primary rounded-pill signup">
+              Sign up
+            </a>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End header  -->
+  <!-- Start landing  -->
+  <div class="landing">
+    <div class="container-fluid ">
+
+      <!-- Slider main container -->
+      <div class="swiper ">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+
+
+          <div class="swiper-slide">
+            <img src="images/landing2 (2).jpg" alt="" class="img-fluid">
+          </div>
+          <div class="swiper-slide">
+            <img src="images/landing5.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="swiper-slide">
+            <img src="images/landing7.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+
+        <div class="text  text-center text-lg-start text-capitalize " id="textheading">
+          <p class=" fw-bold fs-2 text-white">back to school</p>
+          <h2 class="text-white my-3 fw-bold fs-1 text-uppercase">
+            <span class=" text-black  ">special</span> 50% off
+          </h2>
+          <p class=" fw-bold fs-4 my-3">for our student community</p>
+          <a href="#offer" class="btn  btn-primary rounded-pill fs-4 px-5 py-2">get the deal</a>
+        </div>
+
+        <div class="swiper-pagination"></div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+      </div>
+    </div>
+  </div>
+  <!-- End landing  -->
+  <!-- Start bestseller  -->
+  <div class="bestseller py-5 ">
+    <div class="container position-relative py-3">
+      <h2 class="mb-4 text-capitalize py-3 ">Current Bestsellers</h2>
+      <div class="swiper mySwiper p-5">
+        <div class="swiper-wrapper">
+          <div class="card swiper-slide">
+            <img src="images/books2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">The Crown</h5>
+              <p class="card-text text-black-50">
+                Klera Cass
+              </p>
+              <a href="#" class="btn btn-outline-primary px-4">13.99 $</a>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <img src="images/book3.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Big Magic</h5>
+              <p class="card-text text-black-50">
+                Ellzabeth Cllbert
+              </p>
+              <a href="#" class="btn btn-outline-primary px-4">9.99 $</a>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <img src="images/book4.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Forest Arch</h5>
+              <p class="card-text text-black-50">
+                Andy Weir
+              </p>
+              <a href="#" class="btn btn-outline-primary px-4">18.99 $</a>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <img src="images/book1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Lonely City</h5>
+              <p class="card-text text-black-50">
+                Olivia Laing
+              </p>
+              <a href="#" class="btn btn-outline-primary px-4">12.99 $</a>
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <img src="images/book3.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Big Magic</h5>
+              <p class="card-text text-black-50">
+                Ellzabeth Cllbert
+              </p>
+              <a href="#" class="btn btn-outline-primary px-4">9.99 $</a>
+            </div>
+          </div>
+
+          <div class="card swiper-slide">
+            <img src="images/book4.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Forst Arch</h5>
+              <p class="card-text text-black-50">
+                Andy Weir
+              </p>
+              <a href="#" class="btn btn-outline-primary px-4">18.99 $</a>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="swiper-pagination"></div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <!-- End bestseller  -->
+
+
+  <!-- Start toprated  -->
+  <div class="toprated py-3">
+    <div class="container position-relative py-3">
+      <h2 class="mb-4 py-3">Top Rated Books</h2>
+      <div class="swiper mySwiper p-5">
+
+
+        <div class="swiper-wrapper">
+
+          <div class="card swiper-slide">
+            <img src="images/book10.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title fw-bold fs-4">Steve Jobs</h5>
+              <p class="card-text text-black-50  my-0 fs-5">
+                Walter isacson
+              </p>
+              <p class="fs-4 ">$29.22</p>
+              <div class=" d-flex justify-content-between align-items-center">
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span class="rev text-black-50">508 reviews</span>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="card swiper-slide">
+            <img src="images/book11.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title fw-bold fs-4">lean in</h5>
+              <p class="card-text text-black-50  my-0 fs-5">
+                Sheryl sandberg
+              </p>
+              <p class="fs-4 ">$36.13</p>
+              <div class=" d-flex justify-content-between align-items-center">
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span class="rev text-black-50">320 reviews</span>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="card swiper-slide">
+            <img src="images/book12.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title fw-bold fs-4">Leaders Eat Last</h5>
+              <p class="card-text text-black-50  my-0 fs-5">
+                simon sinek
+              </p>
+              <p class="fs-4 ">$19.19</p>
+              <div class=" d-flex justify-content-between align-items-center">
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span class="rev text-black-50">630 reviews</span>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="card swiper-slide">
+            <img src="images/book13.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title fw-bold fs-4">Start With Why</h5>
+              <p class="card-text text-black-50  my-0 fs-5">
+                Walter Charles
+              </p>
+              <p class="fs-4 ">$14.29</p>
+              <div class=" d-flex justify-content-between align-items-center">
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span class="rev text-black-50">390 reviews</span>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="card swiper-slide">
+            <img src="images/book14.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title fw-bold fs-4">The Power Habit</h5>
+              <p class="card-text text-black-50  my-0 fs-5">
+                Charles Duhigg
+              </p>
+              <p class="fs-4 ">$18.29</p>
+              <div class=" d-flex justify-content-between align-items-center">
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span class="rev text-black-50">703 reviews</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card swiper-slide">
+            <img src="images/book16.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title fw-bold fs-4">Atomic Habits</h5>
+              <p class="card-text text-black-50  my-0 fs-5">
+                Walter Charles
+              </p>
+              <p class="fs-4 ">$10.29</p>
+              <div class=" d-flex justify-content-between align-items-center">
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span class="rev text-black-50">630 reviews</span>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="swiper-pagination"></div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+
+    </div>
+  </div>
+  <!-- End toprated  -->
+  <!-- Start offer  -->
+  <div class="offer py-3" id="offer">
+    <div class="container py-5 text-center">
+      <h2 class="w-50 m-auto text-uppercase fw-bold mb-5 ">Limted Time Offer</h2>
+      <div class="date row  d-flex justify-content-evenly align-content-center gap-2 w-75  mx-auto my-3">
+        <div class="  col-md-3 col-lg-4">
+          <h3 class="days">13</h3>
+          <p>days</p>
+        </div>
+        <div class=" col-sm-6 col-md-3 col-lg-4">
+          <h3 class="hours">09</h3>
+          <p>hours</p>
+        </div>
+        <div class=" col-sm-6 col-md-3 col-lg-4">
+          <h3 class="minutes">43</h3>
+          <p>minutes</p>
+        </div>
+        <div class=" col-sm-6 col-md-3 col-lg-4">
+          <h3 class="seconds">23</h3>
+          <p>seconds</p>
+        </div>
+      </div>
+      <div class="row text-start ">
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="card m-2">
+            <img src="images/book5.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title mb-0 ">Sugar Run</h5>
+              <p class="card-text text-black-50">Steven Heller</p>
+              <div class="text d-inline-flex gap-3 justify-content-between ">
+                <del class="fs-5 text-black-50 ">$33.90</del>
+                <p class="fs-5 fw-bold">$22.22</p>
+              </div>
+            </div>
+            <div class="discount">
+              30% OFF
+            </div>
+          </div>
+
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="card  m-2">
+            <img src="images/book6.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title mb-0 ">The Poison Killer</h5>
+              <p class="card-text text-black-50">George Lois</p>
+              <div class="text d-inline-flex gap-3 justify-content-between ">
+                <del class="fs-5 text-black-50 ">$18.75</del>
+                <p class="fs-5 fw-bold">$12.45</p>
+              </div>
+            </div>
+            <div class="discount">
+              25% OFF
+            </div>
+          </div>
+
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="card  m-2">
+            <img src="images/book7.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title mb-0 ">The 7 Habits</h5>
+              <p class="card-text text-black-50">Harper Lee</p>
+              <div class="text d-inline-flex gap-3 justify-content-between ">
+                <del class="fs-5 text-black-50 ">$19.99</del>
+                <p class="fs-5 fw-bold">$13.99</p>
+              </div>
+            </div>
+            <div class="discount">
+              20% OFF
+            </div>
+          </div>
+
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="card  m-2">
+            <img src="images/book8.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title mb-0 ">Red Queen</h5>
+              <p class="card-text text-black-50">Victoria Aveyard</p>
+              <div class="text d-inline-flex gap-3 justify-content-between ">
+                <del class="fs-5 text-black-50 ">$18..00</del>
+                <p class="fs-5 fw-bold">$9.00</p>
+              </div>
+            </div>
+            <div class="discount">
+              50% OFF
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End offer  -->
+  <!-- Start news  -->
+  <div class="news py-5">
+    <div class="container py-3">
+      <h2 class=" text-uppercase text-center fw-bold mb-1">Our latest news</h2>
+      <div class="row text-center text-lg-start">
+        <div class="col-md-6 col-lg-4 mt-5">
+          <div class="card m-3">
+            <img src="images/1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="fs-5 text-black-50 my-0">Augest 8 2023</p>
+              <p class="fs-4 mt-2 fw-bold text-capitalize mb-1">8 Science-Banked ...</p>
+              <p class="text-black-50 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda....</p>
+              <a href="" class=" text-uppercase">continue reading</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mt-5">
+          <div class="card m-3">
+            <img src="images/lab1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="fs-5 text-black-50 my-0">Augest 8 2023</p>
+              <p class="fs-4 mt-2 fw-bold text-capitalize  mb-1">Benefits of reading</p>
+              <p class="text-black-50 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda....</p>
+              <a href="" class=" text-uppercase">continue reading</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mt-5">
+          <div class="card m-3">
+            <img src="images/lab3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="fs-5 text-black-50 my-0">Augest 8 2023</p>
+              <p class="fs-4 mt-2 fw-bold text-capitalize mb-1">Why reading is ....</p>
+              <p class="text-black-50 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda....</p>
+              <a href="" class=" text-uppercase">continue reading</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="view text-capitalize">
+        View all news
+      </div>
+    </div>
+  </div>
+  <!-- End news  -->
+  <!-- Start testimolas -->
+  <div class="testi py-5">
+    <div class="container  py-3">
+      <h2 class=" text-uppercase text-center fw-bold mb-5">Our Happy Customers</h2>
+      <p class="w-75 mx-auto text-center mb-4 lh-lg text-black-50 fs-5">Shopping Book in Bookshop is very easy. Quick
+        delivery and customer service is awesome.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id debitis, sit quam repellat maxime ullam? Adipisci
+        iure quis eveniet aliquid! Quas,
+      </p>
+      <div class="imgs row text-center my-5 ">
+        <div class="col-md-4">
+          <img class="" src="images/avatar-03.png" alt="">
+          <h4 class="mt-4">Roger Edwards</h4>
+          <p class="text-black-50">Book Lover</p>
+        </div>
+        <div class="col-md-4">
+          <img class="" src="images/avatar-04.png" alt="">
+          <h4 class="mt-4"> Edwards Newgate</h4>
+          <p class="text-black-50">Book Lover</p>
+        </div>
+        <div class="col-md-4">
+          <img class="" src="images/avatar-05.png" alt="">
+          <h4 class="mt-4">garp</h4>
+          <p class="text-black-50">Book Lover</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End testimolas -->
+  <!-- Start video -->
+  <div class="video">
+    <video autoplay muted loop>
+      <source src="images/Library book.mp4" type="video/mp4" />
+    </video>
+    <div class="text">
+      <h2>Super Awesome Video Here</h2>
+      <p>Its All You Need</p>
+      <button>See More</button>
+    </div>
+  </div>
+  <!-- End video -->
+  <!-- Start Status -->
+  <div class="status py-5 position-relative">
+    <div class="container py-4">
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="cont">
+            <i class="fa-solid fa-users"></i>
+            <p class="number ">83,510</p>
+            <p class="lett">happy customers</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="cont">
+            <i class="fa-solid fa-book-open"></i>
+            <p class="number ">11,310</p>
+            <p class="lett"> Book Collctions</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="cont">
+            <i class="fa-solid fa-location-dot"></i>
+            <p class="number ">1,269</p>
+            <p class="lett">Our store </p>
+          </div>
+        </div>
+      </div>
+      <div class="sub ">
+        <h3 class="">Get special offer in your inbox</h3>
+        <form action="">
+          <input type="email" placeholder="Enter Your e-main address here" class="rounded-pill">
+          <input type="submit" value="Subscribe" class="rounded-pill btn-primary btn">
+        </form>
+      </div>
+    </div>
+    <div class="add"></div>
+  </div>
+  <!-- End Status -->
+  <!-- Start footer  -->
+  <div class="footer p-3">
+    <div class="container">
+      <div class="row text-white  ">
+        <div class="cont1 col-md-6 col-lg-3 mb-3">
+          <div class="navbar-brand text-white-50 d-flex gap-2 align-items-center fs-3 my-3"><i
+              class="fa-solid fa-book iconlogo"></i>BookStore</div>
+          <div class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis perspiciatis cum accusamus fuga quibusdam,
+            cupturi tempore?
+          </div>
+          <a href="">learn more about us</a>
+        </div>
+        <div class="cont2 col-md-6 col-lg-3 mb-3">
+          <div class="navbar-brand d-flex gap-2 align-items-center fs-3 my-3"><i class="fa-regular fa-compass "></i>our
+            main office</div>
+          <p>mansora,egypt</p>
+          <p>P.O BOX: 4564215</p>
+          <p>Phone: 321564846</p>
+          <p>Mail:admin@google.com</p>
+        </div>
+        <div class="cont3 col-md-6 col-lg-3 mb-3">
+          <div class="navbar-brand d-flex gap-2 align-items-center fs-3 my-3"><i
+              class="fa-solid fa-share-nodes"></i>keep in touch with</div>
+          <div class="socials">
+            <div><i class="fa-brands fa-facebook"></i> facebook</div>
+            <div><i class="fa-brands fa-twitter"></i> twitter</div>
+            <div><i class="fa-brands fa-instagram"></i> instgram</div>
+          </div>
+        </div>
+        <div class="cont4 col-md-6 col-lg-3 mb-3">
+          <div class="navbar-brand d-flex gap-2 align-items-center fs-3 my-3"><i
+              class="fa-solid fa-circle-info"></i>information</div>
+          <ul>
+            <li>About us</li>
+            <li>Contact US</li>
+            <li>Blog</li>
+          </ul>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- End footer  -->
+  <div class="foot">
+    <div class="container">
+      <div class="">
+        &copy; All Rights Reserved
+      </div>
+    </div>
+  </div>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/all.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="js/test.js"></script>
+
+</body>
+
+</html>
