@@ -306,7 +306,7 @@ body {
 
 .team .member img {
   border-radius: 30px;
-  width: 260px;
+  width: 100%;
   height: 350px;
   transition: 0.3s;
 }
@@ -324,7 +324,7 @@ body {
   text-align: center;
 }
 .team .member:hover .names {
-  transform: translate(70px, 200px);
+  transform: translate(40px, 200px);
 }
 .team .member .names i:hover {
   color: var(--second-color);
@@ -428,7 +428,7 @@ body {
 
 .slider-controls .prev.disabled,
 .slider-controls .next.disabled {
-  color: rgba(255, 0, 0, 0.2);
+  color:#1b8acb5c;
   cursor: no-drop;
 }
 /*end of reviews section*/
@@ -546,7 +546,7 @@ body {
   }
   .team .member img {
     border-radius: 30px;
-    width: 200px;
+    width: 100%;
     height: 270px;
     transition: 0.4s;
   }
@@ -561,7 +561,7 @@ body {
     font-size: 15px;
   }
   .team .member:hover .names {
-    transform: translate(30px, 170px);
+    transform: translate(20px, 170px);
   }
 
   /*reviews section*/
@@ -701,7 +701,7 @@ body {
   }
   .team .member img {
     border-radius: 30px;
-    width: 180px;
+    width: 100%;
     height: 270px;
     transition: 0.4s;
   }
@@ -716,7 +716,7 @@ body {
     font-size: 15px;
   }
   .team .member:hover .names {
-    transform: translate(30px, 170px);
+    transform: translate(20px, 170px);
   }
   /*reviews section*/
 
@@ -850,7 +850,7 @@ body {
     grid-column: 1/4;
   }
   .team .member {
-    width: 180px;
+    width: 200px;
     height: 270px;
     margin-right: 20px;
     border: 15px solid white;
@@ -861,7 +861,7 @@ body {
   }
   .team .member img {
     border-radius: 30px;
-    width: 180px;
+    width: 100%;
     height: 270px;
     transition: 0.4s;
   }
@@ -876,7 +876,7 @@ body {
     font-size: 15px;
   }
   .team .member:hover .names {
-    transform: translate(30px, 170px);
+    transform: translate(20px, 170px);
   }
 
   /*reviews section*/
@@ -993,7 +993,7 @@ body {
     grid-column: 1/4;
   }
   .team .member {
-    width: 180px;
+    width: 200px;
     height: 270px;
     margin-right: 20px;
     border: 15px solid white;
@@ -1004,7 +1004,7 @@ body {
   }
   .team .member img {
     border-radius: 30px;
-    width: 180px;
+    width: 100%;
     height: 270px;
     transition: 0.4s;
   }
@@ -1135,7 +1135,7 @@ body {
     font-size: 30px;
   }
   .team .member {
-    width: 200px;
+    width: 230px;
     height: 270px;
     margin-right: 20px;
     border: 15px solid white;
@@ -1146,7 +1146,7 @@ body {
   }
   .team .member img {
     border-radius: 30px;
-    width: 200px;
+    width: 100%;
     height: 270px;
     transition: 0.4s;
   }
@@ -1288,7 +1288,7 @@ body {
   }
   .team .member img {
     border-radius: 30px;
-    width: 250px;
+    width: 100%;
     height: 350px;
     transition: 0.4s;
   }
@@ -1303,7 +1303,7 @@ body {
     font-size: 15px;
   }
   .team .member:hover .names {
-    transform: translate(45px, 200px);
+    transform: translate(30px, 200px);
   }
 
   /*reviews section*/
@@ -1477,3 +1477,4 @@ body {
   z-index: -2;
 }
 /* End footer  */
+
